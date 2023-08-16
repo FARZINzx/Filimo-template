@@ -43,7 +43,16 @@ table {
 	border-spacing: 0;
 }
 
+/* Font Style */
+@font-face {
+	font-family: 'IranSans' ;
+	src: url(/src/assets/Fonts/IranianSans.ttf);
+} 
+
+/* Common Style*/
+
 html {
 	--header-backgroung : rgb(4,4,4);
-	--header-text-color : #fff
+	--header-text-color : #fff;
+	--header-item-color-hover : #f9ad03
 }
