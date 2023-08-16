@@ -2,6 +2,8 @@ header {
   width: 100%;
   background-color: var(--header-backgroung);
   position: fixed;
+  backdrop-filter: blur(14px);
+  transition: all .4s ease-out;
 }
 
 .inner-wraper{
@@ -46,7 +48,6 @@ header {
      border: none;
      padding: 10px 16px;
      border-radius: 4px;
-     
 }
 
 .licence-btn{

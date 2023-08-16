@@ -45,23 +45,23 @@ table {
 /* Font Style */
 @font-face{
 	src: url(/src/assets/Fonts/IranSans.ttf);
-	font-weight:400;
+	font-weight:100;
 	font-size: 11px;
 	font-family: iranSans ;
 }
 /* Common Style*/
 
 html {
-	--header-backgroung : rgb(4,4,4);
+	--header-backgroung : rgba(0,0,0,.8);
 	--header-text-color : #fff;
 	--header-item-color-hover : #f9ad03;
 	--header-backgroung-btn-licence : #1cb561;
-	--header-backgroung-btn-login : #434343;
-
-	
+	--header-backgroung-btn-login : #434343;	
+	--body-background : #151515;
 }
 
 body{
 	font-family: iranSans;
+	background-color: var(--body-background);
 }
 
