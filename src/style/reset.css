@@ -45,8 +45,6 @@ table {
 /* Font Style */
 @font-face{
 	src: url(/src/assets/Fonts/IranSans.ttf);
-	font-weight:100;
-	font-size: 11px;
 	font-family: iranSans ;
 }
 /* Common Style*/
@@ -57,6 +55,7 @@ html {
 	--header-item-color-hover : #f9ad03;
 	--header-backgroung-btn-licence : #1cb561;
 	--header-backgroung-btn-login : #434343;	
+	--header-background-hidden-item : #1A1A1A;
 	--body-background : #151515;
 }
 
