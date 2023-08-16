@@ -1,37 +1,60 @@
-
 header {
   width: 100%;
   background-color: var(--header-backgroung);
   position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--header-text-color);
-  font-family: 'IranSans';
 }
 
 .inner-wraper{
-     padding: 16px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0px 100px;
+     margin: 0 auto;
 }
 
 .header-link ul {
-     display: flex;  
+     display: flex; 
+     align-items: center; 
      list-style-type: none;  
 }
 
 .header-logo{
-    
+     padding-left: 32px;
      border-left: 1px solid rgba(255,255,255,.3) ;
+     line-height: 0;
+     margin-left: 32px;
 }
 
-.header-link-item {
-     padding: 0 1rem 0 1rem;
+.header-link-item:not(.header-logo) {
+     padding-top: 14px;
+     padding-bottom:14px ;
+     line-height: 0;
+     margin-left: 32px;
+}
+
+.header-link-item a{
+     color : var(--header-text-color );
      display: flex;
      align-items: center;
-}
+} 
 
 .header-link-item:hover{
      color:var(--header-item-color-hover) ;
 }
 
+.btn {
+     border: none;
+     padding: 10px 16px;
+     border-radius: 4px;
+     
+}
+
+.licence-btn{
+     background-color:  var(--header-backgroung-btn-licence);
+     margin-left: 16px;
+}
+
+.login-btn{
+     background-color: var(--header-backgroung-btn-login);
+}
 

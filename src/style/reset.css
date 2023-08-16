@@ -14,9 +14,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -44,15 +43,25 @@ table {
 }
 
 /* Font Style */
-@font-face {
-	font-family: 'IranSans' ;
-	src: url(/src/assets/Fonts/IranianSans.ttf);
-} 
-
+@font-face{
+	src: url(/src/assets/Fonts/IranSans.ttf);
+	font-weight:400;
+	font-size: 11px;
+	font-family: iranSans ;
+}
 /* Common Style*/
 
 html {
 	--header-backgroung : rgb(4,4,4);
 	--header-text-color : #fff;
-	--header-item-color-hover : #f9ad03
+	--header-item-color-hover : #f9ad03;
+	--header-backgroung-btn-licence : #1cb561;
+	--header-backgroung-btn-login : #434343;
+
+	
 }
+
+body{
+	font-family: iranSans;
+}
+
