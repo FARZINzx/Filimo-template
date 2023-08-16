@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  background-color: var(--header-backgroung);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--header-text-color);
+}
+
+.header-link ul {
+     display: flex;  
+     list-style-type: none;  
+}
+
+.header-link ul:first-child.header-link-item{
+     padding: 32px;
+     border-left: 1px solid rgba(255,255,255,.3) ;
+}
+
+.header-link-item {
+     padding: 1rem;
+}
+
+
