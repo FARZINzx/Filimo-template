@@ -1,0 +1,107 @@
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--footer-background);
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s ease-out;
+}
+
+.footer-link ul {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-link-item {
+  padding: 4px 8px;
+}
+
+.footer-link-item a {
+  color: var(--footer-text-color-item);
+  font-size: 10.5px;
+  font-weight: 400px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+
+.footer-link-item a:hover {
+  color: var(--footer-text-color-item-hover);
+}
+
+svg {
+  transition: all 0.3s ease-out;
+}
+
+.footer-link-item a:hover svg {
+  fill: var(--footer-text-color-item-hover);
+  stroke: var(--footer-text-color-item-hover);
+}
+
+.social-media .dropDown-footer {
+  position: relative;
+}
+
+.hidden-menu-footer {
+  transform: translateY(0);
+  visibility: hidden;
+  opacity: 0;
+  width: 162px;
+  top: 0;
+}
+.hidden-menu .hidden-menu-nav-footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: var(--footer-background);
+  box-shadow: #000 0 8px 16px 0;
+  z-index: 2;
+  bottom: 6px;
+}
+
+.social-media .hidden-menu-footer {
+ left: -10px; 
+}
+
+.hidden-menu .hidden-menu-nav-footer::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: -5px;
+  right: 40px;
+  transform: rotate(45deg);
+  background-color: var(--footer-background);
+  z-index: -1;
+}
+
+.hidden-menu-item-footer {
+  width: 100%;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  display: list-item;
+}
+
+.hidden-menu-item-footer span {
+  margin-right: 2px;
+}
+
+.hidden-menu-item-footer:hover {
+  background-color: var(--footer-item-background);
+}
+
+.hidden-menu-item-footer:hover a {
+  color: var(--footer-text-color-item-hover);
+}
+
+.dropDown-footer-link:hover .hidden-menu-footer {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in;
+}
