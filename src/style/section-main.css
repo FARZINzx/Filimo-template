@@ -91,4 +91,109 @@
 .item-active img{
      opacity: 1;
      
-     }
+}
+
+/* section-main-bottom */
+
+.section-bottom-bg{
+     background-image: url(/src/assets/Images/movie-background.jpg);
+     background-repeat: no-repeat;
+     position: relative;
+}
+
+.gradient-section-1{
+    background:  linear-gradient(270deg,#151515 15%,rgba(21,21,21,0) 100%);
+}
+
+.gradient-section-2{
+    background:  linear-gradient(90deg,#151515 2%,rgba(21,21,21,0) 10%);
+}
+
+.section-movie-detail{
+     z-index: 5;
+     padding: 10px 0 85px;
+     background: linear-gradient(180deg,#151515 4%,rgba(21,21,21,0) 45%);;
+     position: relative;
+}
+
+.section-movie-cast{
+     padding: 0 100px;
+     max-width: 144px;
+     position: relative;
+     display: flex;
+     justify-content: flex-start;
+}
+
+.section-movie-cast-details{
+     display: flex;
+     flex-direction: column;
+}
+
+.movie-cast-title{
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 32px;
+     margin: 12px;
+     text-transform: none;
+     color: #fff;
+}
+
+.movie-en{
+     font-weight: 100;
+     font-size: 10px;
+     line-height: 12px;
+     color: var(--section-main-movie-en-color);
+     margin-bottom: 24px;
+}
+
+.movie-data{
+     display: flex;
+     margin-bottom: 24px;
+}
+
+.movie-data-item{
+     text-align: center;
+     background-color: var(--section-main-movie-data-color);
+     backdrop-filter: blur(8px);
+     border-radius: 24px;
+     min-width: 50px;
+     padding: 3px 15px;
+     align-items: center;
+     justify-content: center;
+     margin-left: 8px;
+     color: #fff;
+     font-size: 10px;
+     font-weight: 100;
+     text-align: center;
+     display: flex;
+    
+}
+
+.data-like{
+     background-color: var(--section-main-movie-like-data-color);
+     color: var(--section-main-movie);
+     padding: 3px 7px;
+}
+
+.data-like img{
+     width:15px;
+     margin-left: 4px ;
+     color: transparent;
+     user-select: none;
+}
+
+.movie-describtion{
+     font-weight: 100;
+     font-size: 12px;
+     line-height: 26px;
+     max-width: 705px;
+     overflow: hidden;
+     overflow-y: auto;
+     margin-bottom: 24px;
+     white-space: nowrap;
+}
+
+.movie-describtion span{
+     color: #fff;
+}

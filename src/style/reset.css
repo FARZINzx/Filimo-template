@@ -60,6 +60,10 @@ html {
 	--header-background-hidden-item : #1A1A1A;
 	--body-background : #151515;
 	--section-main-switch-cat-color-border : #ffffff1f;
+	--section-main-movie-en-color : #a1a1a1;
+	--section-main-movie-like-data-color : rgba(77,171,86,.12);
+	--section-main-movie-data-color : #282828;
+	--section-main-movie : #1cb561;
 	--footer-background : #191919;
 	--footer-text-color-item : #959595;
 	--footer-text-color-item-hover : #fff;
