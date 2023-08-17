@@ -4,6 +4,7 @@ header {
   position: fixed;
   backdrop-filter: blur(14px);
   transition: all 0.4s ease-out;
+  z-index: 10;
 }
 
 .inner-wraper {
