@@ -59,11 +59,15 @@ html {
 	--header-backgroung-btn-login-hover :#434242;
 	--header-background-hidden-item : #1A1A1A;
 	--body-background : #151515;
+	--section-main-switch-cat-color-border : #ffffff1f;
 	--footer-background : #191919;
 	--footer-text-color-item : #959595;
 	--footer-text-color-item-hover : #fff;
 	--footer-item-background : #474747;
 	--footer-text-poster : #DC9B4A;
+	--footer-text-item-list-color : rgba(255,255,255,.75);
+	--footer-text-gift-color : #959ba2;
+	
 }
 
 body{
