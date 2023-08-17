@@ -40,7 +40,6 @@
 }
 
 .switch-cat .switch-cat-item.item-series{
-     
      cursor: pointer;
      padding: 0 8px;
      background:  rgba(255,255,255,.12);
@@ -54,3 +53,42 @@
      white-space: nowrap;
      padding: 15px 8px 25px 0;
 }
+
+.section-main-top-wrapper-list{
+     display: flex;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.section-main-top-wrapper-item {
+     margin-left: 10px;
+}
+
+.section-movie-poster img{
+     border-radius:8px ;
+     opacity: .65;
+     transition: all .3s ease-in-out;
+     width: 100%;
+     user-select: none;
+     color: transparent;
+     line-height:0 ;
+     cursor: pointer;
+}
+
+.section-main-top-wrapper-item:hover .section-movie-poster img{
+     opacity: 1;
+}
+
+.item-active{
+     border: 2px solid rgba(255, 255, 255, .7);
+     transform: scale(1.1);
+     border-radius: 10px;
+}
+
+.item-active img{
+     opacity: 1;
+     
+     }
