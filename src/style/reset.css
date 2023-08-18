@@ -76,6 +76,9 @@ html {
 	--section-child-btn-background : #ededed;
 	--section-online-background-card : rgba(255,255,255,.06);
 	--section-online-border-color-card : #33353d;
+	--section-user-card-background : #ffffff05;
+	--section-user-name-color : #6D7176;
+	--section-user-p-color : #f9f9f9;
 	--footer-background : #191919;
 	--footer-text-color-item : #959595;
 	--footer-text-color-item-hover : #fff;
