@@ -47,6 +47,11 @@ table {
 	src: url(/src/assets/Fonts/IranSans.ttf);
 	font-family: iranSans ;
 }
+
+@font-face {
+	font-family: swiper-icon ;
+	src: url(/src/assets/Fonts/swiper-icons.ttf);
+}
 /* Common Style*/
 
 html {
