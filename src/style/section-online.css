@@ -47,3 +47,43 @@
 .section-online-collection{
      width: 100%;
 }
+
+.section-online-box{
+     display: flex;
+     max-height: 570px;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.section-online-card{
+     background: var(--section-online-background-card);
+     border: 1px solid var(--section-online-border-color-card);
+     min-width: 528px;
+     padding: 10px;
+     border-radius: 12px;
+     backdrop-filter: blur(32px);
+     box-shadow: 0 10px 36px #00000040;
+     position: relative;
+     display: flex;
+     margin: 12px;
+}
+
+.section-online-card-img{
+     margin-left: 16px;
+     margin-bottom: 4px;
+     text-decoration: none;
+}
+
+.section-online-card-img img{
+     border-radius: 8px;
+     width: 100%;
+}
+
+.online-like{
+     width: 50px;
+}
+
+.online-section-sub{
+     display: flex;
+}

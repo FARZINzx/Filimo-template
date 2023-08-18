@@ -74,6 +74,8 @@ html {
 	--section-tv-btn-background : #606060;
 	--section-tv-btn-background-hover : #6f6e6e;
 	--section-child-btn-background : #ededed;
+	--section-online-background-card : rgba(255,255,255,.6);
+	--section-online-border-color-card : #33353d;
 	--footer-background : #191919;
 	--footer-text-color-item : #959595;
 	--footer-text-color-item-hover : #fff;
