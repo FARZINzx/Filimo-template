@@ -69,6 +69,8 @@ html {
 	--section-main-movie-like-data-color : rgba(77,171,86,.12);
 	--section-main-movie-data-color : #282828;
 	--section-main-movie : #1cb561;
+	--section-device-title-color : #EAEAEA;
+	--section-device-describe-color : #d8d8d8;
 	--footer-background : #191919;
 	--footer-text-color-item : #959595;
 	--footer-text-color-item-hover : #fff;

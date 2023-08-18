@@ -9,3 +9,80 @@
      align-items: center;
      justify-content: center;
 }
+
+.section-device-photo{
+     margin-left: 24px;
+     width: 570px;
+}
+
+.section-device-describe{
+     margin-right: 15px;
+}
+
+.section-device-describe-title{
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 16px;
+     margin-bottom: 16px;
+     color: var(--section-device-title-color);
+}
+
+.section-device-describe-text{
+     font-weight: 100;
+     font-size: 13px;
+     line-height: 25px;
+     text-align: right;
+     color: var(--section-device-describe-color);
+     margin-bottom: 32px;
+}
+
+.section-user{
+     display: flex;
+     justify-content: flex-start;
+     margin-bottom: 32px;
+}
+
+.pc-icon{
+     user-select: none;
+     line-height: 0;
+     color: transparent;
+     width: 27px;
+     margin-left: 10px;
+     align-self: flex-start;
+}
+.pc-icon img {
+     width: 100%;
+}
+.laptob-icon img{
+     width: 80%;
+}
+
+.section-text{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+}
+
+.section-pc-title{
+     font-weight: 700;
+     font-size: 14px;
+     line-height:15px;
+     color: var(--section-device-describe-color) ;
+     margin-bottom: 16px;
+}
+
+.section-pc-describe{
+     font-weight: 400;
+     font-size: 11px;
+     line-height: 14px;
+     color: var(--section-main-movie-en-color);
+}
+
+.section-device-btn{
+     width: 160px;
+     transition: all .3s ease-out;
+    margin-left: 12px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    text-align: center;
+}
