@@ -1,89 +1,153 @@
-.section-online{
-     padding: 64px 0px;
-     background-image: url(/src/assets/Images/bg-cinama.png);
-     background-size: cover;
-     background-repeat: no-repeat;
+.section-online {
+  padding: 64px 0px;
+  background-image: url(/src/assets/Images/bg-cinama.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.section-inner{
-     padding: 0 100px;
-     max-width: 1440px;
-     margin: 0 auto;
-     display: flex;
-     flex-direction: column;
-
+.section-inner {
+  padding: 0 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.section-online-text{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     width: 100%;
+.section-online-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-.section-online-title{
-     margin-bottom: 32px;
-     font-weight: 700;
-     font-size: 17px;
-     line-height: 20px;
-     color: #fff;
+.section-online-title {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #fff;
 }
 
-.section-online-list{
-     display: flex;
-     align-items: flex-start;
-     justify-content: space-evenly;
-     width: 100%;
+.section-online-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 24px;
 }
 
 .section-online-list span {
-     color: #fff;
-     font-weight: 100;
-     font-size: 13px;
-     line-height: 24px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 24px;
 }
 
-.section-online-collection{
-     width: 100%;
+.section-online-collection {
+  width: 100%;
 }
 
-.section-online-box{
+.section-online-box {
+  display: flex;
+  max-height: 570px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-online-card {
+  background: var(--section-online-background-card);
+  border: 1px solid var(--section-online-border-color-card);
+  min-width: 528px;
+  padding: 10px;
+  border-radius: 12px;
+  backdrop-filter: blur(32px);
+  box-shadow: 0 10px 36px #00000040;
+  position: relative;
+  display: flex;
+  margin: 12px;
+}
+
+.section-online-card-text{
      display: flex;
-     max-height: 570px;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
+     flex-direction: column;
 }
 
-.section-online-card{
-     background: var(--section-online-background-card);
-     border: 1px solid var(--section-online-border-color-card);
-     min-width: 528px;
-     padding: 10px;
-     border-radius: 12px;
-     backdrop-filter: blur(32px);
-     box-shadow: 0 10px 36px #00000040;
-     position: relative;
-     display: flex;
-     margin: 12px;
+.section-online-card-img {
+  margin-left: 16px;
+  margin-bottom: 4px;
+  text-decoration: none;
 }
 
-.section-online-card-img{
-     margin-left: 16px;
-     margin-bottom: 4px;
-     text-decoration: none;
+.section-online-card-img img {
+  border-radius: 8px;
+  width: 100%;
 }
 
-.section-online-card-img img{
-     border-radius: 8px;
-     width: 100%;
+.online-like {
+  width: 50px;
+  padding: 2px 2px;
+  margin-bottom: 16px;
 }
 
-.online-like{
-     width: 50px;
+.online-section-sub {
+  display: flex;
+  margin-bottom: 24px;
 }
 
-.online-section-sub{
-     display: flex;
+.section-online-card-text-title {
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+.section-online-director {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--section-device-describe-color);
+  margin-bottom: 24px;
+}
+
+.section-online-buy {
+  width: 70px;
+  padding: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 10px;
+  font-family: iranSans;
+  font-weight: 400;
+}
+
+.section-online-buy:hover {
+  background-color: rgb(33, 33, 33);
+}
+
+.section-ticket {
+  position: absolute;
+  display: flex;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 4px 6px;
+  width: max-content;
+  text-align: center;
+  align-items: center;
+  left: 15px;
+}
+
+.section-ticket img {
+  width: 20%;
+}
+
+.section-ticket span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #fff;
 }
