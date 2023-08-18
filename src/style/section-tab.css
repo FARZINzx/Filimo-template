@@ -1,5 +1,5 @@
-.section-tab{
-     position: relative;
+.section-tab {
+  position: relative;
 }
 
 .section-tab-gradient {
@@ -17,24 +17,23 @@
   right: 0;
 }
 
-.section-tab-dev{
-     padding: 64px 0;
-     display: flex;
-     justify-content: space-around;
-     flex-direction: column;
-     margin: 0 auto;
-     align-items: center;
+.section-tab-dev {
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 
-.section-tab-logo{
-     padding-bottom: 64px;
+.section-tab-logo {
+  padding-bottom: 64px;
 }
 
-.section-tab-btn{
-     width: 285px;
-     padding: 17px 0;
-     margin: 0 auto;
-     font-size: 15px;
-     background-color: #17924E;
-     border-radius: 8px;
+.section-tab-btn {
+  width: 285px;
+  padding: 17px 0;
+  margin: 0 auto;
+  font-size: 15px;
+  background-color: #17924e;
+  border-radius: 8px;
 }
