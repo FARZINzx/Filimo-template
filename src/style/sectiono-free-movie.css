@@ -62,3 +62,11 @@
      opacity: 1;
      z-index: 3;
 }
+
+.before-icon.free-movie-swiper{
+     right: 1%;
+}
+
+.next-icon.free-movie-swiper{
+     left: 1%;
+}
