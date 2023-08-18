@@ -1,0 +1,49 @@
+.section-online{
+     padding: 64px 0px;
+     background-image: url(/src/assets/Images/bg-cinama.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.section-inner{
+     padding: 0 100px;
+     max-width: 1440px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+
+}
+
+.section-online-text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+}
+
+.section-online-title{
+     margin-bottom: 32px;
+     font-weight: 700;
+     font-size: 17px;
+     line-height: 20px;
+     color: #fff;
+}
+
+.section-online-list{
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-evenly;
+     width: 100%;
+}
+
+.section-online-list span {
+     color: #fff;
+     font-weight: 100;
+     font-size: 13px;
+     line-height: 24px;
+}
+
+.section-online-collection{
+     width: 100%;
+}
