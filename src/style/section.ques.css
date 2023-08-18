@@ -1,0 +1,32 @@
+.section-ques {
+  padding: 80px 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.25) 0,
+    rgba(0, 0, 0, 0) 100%
+  ) !important;
+}
+
+.section-ques-inner{
+     padding: 0px 100px;
+     margin: 0 auto;
+}
+.section-ques-text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.section-ques-text h3 {
+     font-weight: 400;
+     margin-bottom: 32px;
+     font-size: 16px;
+     color: #fff;
+}
+
+.section-ques-text span{
+     text-align: center;
+     font-size: 12px;
+     color: rgb(158, 158, 158);
+}
