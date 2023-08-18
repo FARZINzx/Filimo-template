@@ -1,0 +1,40 @@
+.section-tab{
+     position: relative;
+}
+
+.section-tab-gradient {
+  background: radial-gradient(
+    100% 410.68% at 100% 100%,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 29, 13, 0.54) 53.55%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  mix-blend-mode: color;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.section-tab-dev{
+     padding: 64px 0;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     margin: 0 auto;
+     align-items: center;
+}
+
+.section-tab-logo{
+     padding-bottom: 64px;
+}
+
+.section-tab-btn{
+     width: 285px;
+     padding: 17px 0;
+     margin: 0 auto;
+     font-size: 15px;
+     background-color: #17924E;
+     border-radius: 8px;
+}
