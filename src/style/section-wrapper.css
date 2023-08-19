@@ -7,7 +7,7 @@
 }
 
 .back-img{
-     background-image: url(/src/assets/Images/backgroundPoster.jpeg);
+     background-image: url(../assets/Images/backgroundPoster.jpeg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;

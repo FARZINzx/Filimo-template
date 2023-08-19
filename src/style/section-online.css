@@ -1,6 +1,6 @@
 .section-online {
   padding: 64px 0px;
-  background-image: url(/src/assets/Images/bg-cinama.png);
+  background-image: url(../assets/Images/bg-cinama.png);
   background-size: cover;
   background-repeat: no-repeat;
 }

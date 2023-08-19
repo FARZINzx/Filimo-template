@@ -95,7 +95,7 @@
 /* section-main-bottom */
 
 .section-bottom-bg {
-  background-image: url(/src/assets/Images/movie-background.jpg);
+  background-image: url(../assets/Images/movie-background.jpg);
   background-repeat: no-repeat;
   position: relative;
 }
