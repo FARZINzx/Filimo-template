@@ -136,25 +136,46 @@ header {
 
 .sml{
   display: none;
-  height: 2.5em;
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   transform: translateY(-8px);
   z-index: 11;
 }
 
-.smallScreenMenu:hover .sml{
-  display: block;
+.burgur-icon:hover .sml{
+   display: block;
 }
 
 .small-inner{
   position: absolute;
-  top: 28px;
+  top: 10px;
   left: -60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0.5em;
   background-color: var(--header-background-hidden-item);
+}
+
+
+.smallScreenMenu-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallScreenMenu-menu .licence-btn{
+  margin-left:0 ;
+  margin-bottom: 15px;
+}
+
+.smallScreenMenu-menu .login-btn{
+  width: 152px;
+}
+
+.header-link-item.smallScreenMenu-item{
+  margin-top: 15px;
+  list-style-type: none;
 }
 
 .smallScreenMenu{
@@ -191,6 +212,7 @@ header {
     margin-left: 16px;
     padding-left: 16px;
   }
+}
 
   @media screen and (max-width : 964px) {
     .smallScreenMenu{
@@ -206,6 +228,46 @@ header {
       }
   }
 
+  @media screen and (max-width : 600px) {
+    .inner-wraper{
+      padding: 0 10px;
+    }
+
+    .hidden-menu {
+    transform: translateX(60px);
+    }
+
+    .hidden-menu{
+      width: 150px;
+    }
+
+    .hidden-menu-item{
+      width: 130px;
+    }
+  }
+
+  @media screen and (max-width : 450px) {
+    .header-link-item a{
+      font-size: 9px;
+    }
+
+    .header-logo{
+      margin-left: 5px;
+      padding-left: 5px;
+
+    }
+
+    .header-logo img{
+      width: 60px;
+      height: 20px;
+    }
+    
+   
+
+
+
+  }
+
   
 
 
@@ -215,8 +277,8 @@ header {
 
 .burger {
   position: relative;
-  width: 40px;
-  height: 30px;
+  width: 30px;
+  height: 20px;
   background: transparent;
   cursor: pointer;
   display: block;
@@ -237,6 +299,7 @@ header {
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
+  margin: auto;
 }
 
 .burger span:nth-of-type(1) {
@@ -258,8 +321,9 @@ header {
 
 .burger input:checked ~ span:nth-of-type(1) {
   transform: rotate(45deg);
-  top: 0px;
+  top: 6px;
   left: 5px;
+
 }
 
 .burger input:checked ~ span:nth-of-type(2) {
