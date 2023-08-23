@@ -3,7 +3,9 @@
 }
 
 .free-movie {
-     padding: 0px 100px;
+     padding: 0px 327px;
+     margin: 0 auto;
+     max-width: 1440px;
 }
 
 .section-free-movie-title{
@@ -14,23 +16,32 @@
 }
 
 .section-free-movie-wrapper{
-     position: relative;
      overflow: hidden;
      padding: 0px 15px;
      margin: 0px -15px ;
-     touch-action: pan-y;
+     touch-action: pan-x;
      z-index: 1;
+     overflow-x: scroll;
+     scroll-behavior: smooth;
+     position: relative;
+     
 
 }
 
 .section-free-movie-list{
      display: flex;
-     position: relative;
      justify-content: space-between;
 }
 
+.section-free-movie-item {
+     margin-left: 30px;
+     text-decoration: none;
+     min-width:130px;
+     width: auto;
+
+}
+
 .free-movie-item-poster{
-     position: relative;
      transition: all .3s ease-in-out;
      margin-bottom: 8px;
      align-self: center;
@@ -63,6 +74,10 @@
      z-index: 3;
 }
 
+.free-movie-swiper{
+     position: absolute;
+}
+
 .before-icon.free-movie-swiper{
      right: 1%;
 }
@@ -70,3 +85,4 @@
 .next-icon.free-movie-swiper{
      left: 1%;
 }
+
