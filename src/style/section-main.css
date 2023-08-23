@@ -373,5 +373,17 @@
   .last-poster-item{
     display: none;
   }
+
+  @media screen and (max-width : 768px) {
+    .section-main-top-wrapper-item {
+      margin-left: 20px;
+    }
+
+    .item-active {
+      margin-left: 10px;
+    }
+  }
+
+  
 }
-/*end of Responsive part*?
+/*end of Responsive part*/

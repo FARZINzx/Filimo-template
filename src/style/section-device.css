@@ -10,9 +10,24 @@
      justify-content: center;
 }
 
+.responsive-photo-mode{
+     display: none;
+     width: 90%;
+     margin-bottom: 16px;
+}
+
+.responsive-photo-mode img {
+     width: 100%;
+}
+
+
 .section-device-photo{
      margin-left: 24px;
      width: 570px;
+}
+
+.section-device-photo img  {
+     width: 100%;
 }
 
 .section-device-describe{
@@ -86,3 +101,45 @@
     padding: 10px 16px;
     text-align: center;
 }
+
+/* Responsive part*/
+
+@media screen and (max-width :1100px){
+     .section-dev{
+          padding: 0 20px;
+     }
+
+     .section-device-describe-title{
+          font-size: 14px;
+     }
+
+     .section-device-describe-text{
+          font-size: 12px;
+     }
+
+     .section-pc-title{
+          font-size: 12px;
+     }
+
+     .section-pc-describe{
+          font-size: 10px;
+     }
+
+     @media screen and (max-width : 768px) {
+          .section-dev{
+               display: flex;
+               flex-direction: column;
+          }
+
+          
+          .section-device-photo {
+               display: none;
+          }
+
+          .responsive-photo-mode{
+               display: block;
+          }
+     }
+}
+
+/* end of Responsive part*/
