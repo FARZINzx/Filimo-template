@@ -29,6 +29,7 @@
      max-width: 400px;
      font-size: 11px;
      line-height: 22px;
+     text-align: justify;
 }
 
 .andtv-img img{
@@ -38,6 +39,8 @@
 .section-device-describe{
      z-index: 10;
 }
+
+
 
 .tv-btn{
      padding: 10px 16px;
@@ -72,11 +75,45 @@
 
 /* responsive Part*/
 
+@media screen and (max-width:1250px) and (min-width:840px) {
+     .section-pc-describe{
+          max-width: 300px;
+     }
+}
 @media screen and (max-width :1100px){
      .section-tv{
           padding: 0 20px;
      }
+
+     .section-tv-img{
+          width:650px ;
+     }
 }
+
+@media screen and (max-width :900px) {
+     .section-tv-img{
+          width:575px ;
+     }
+
+     .section-tv .tv-text{
+          font-size: 11px
+     }
+
+     .section-pc-title{
+          font-size:11px ;
+     }
+
+     .section-pc-describe{
+          font-size: 10px;
+     }
+}
+
+@media screen and (max-width:840px) and (min-width:768px){
+     .section-pc-describe{
+          max-width: 230px;
+     }
+}
+
 
 @media screen and (max-width:768px) {
 
