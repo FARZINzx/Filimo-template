@@ -1,145 +1,161 @@
 .section-device {
-     padding-bottom: 64px;
-     padding-top: 64px;
+  padding-bottom: 64px;
+  padding-top: 64px;
 }
 
-.section-dev{
-     padding: 0 100px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.section-dev {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.responsive-photo-mode{
-     display: none;
-     width: 90%;
-     margin-bottom: 16px;
+.responsive-photo-mode {
+  display: none;
+  width: 90%;
+  margin-bottom: 16px;
 }
 
 .responsive-photo-mode img {
-     width: 100%;
+  width: 100%;
 }
 
-
-.section-device-photo{
-     margin-left: 24px;
-     width: 570px;
+.section-device-photo {
+  margin-left: 24px;
+  width: 570px;
 }
 
-.section-device-photo img  {
-     width: 100%;
+.section-device-photo img {
+  width: 100%;
 }
 
-.section-device-describe{
-     margin-right: 15px;
+.section-device-describe {
+  margin-right: 15px;
 }
 
-.section-device-describe-title{
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 16px;
-     margin-bottom: 16px;
-     color: var(--section-device-title-color);
+.section-device-describe-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 16px;
+  color: var(--section-device-title-color);
 }
 
-.section-device-describe-text{
-     font-weight: 100;
-     font-size: 13px;
-     line-height: 25px;
-     text-align: right;
-     color: var(--section-device-describe-color);
-     margin-bottom: 32px;
+.section-device-describe-text {
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: right;
+  color: var(--section-device-describe-color);
+  margin-bottom: 32px;
 }
 
-.section-user{
-     display: flex;
-     justify-content: flex-start;
-     margin-bottom: 32px;
+.section-user {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 32px;
 }
 
-.pc-icon{
-     user-select: none;
-     line-height: 0;
-     color: transparent;
-     width: 27px;
-     margin-left: 10px;
-     align-self: flex-start;
+.pc-icon {
+  user-select: none;
+  line-height: 0;
+  color: transparent;
+  width: 27px;
+  margin-left: 10px;
+  align-self: flex-start;
 }
 .pc-icon img {
-     width: 100%;
+  width: 100%;
 }
-.laptob-icon img{
-     width: 80%;
-}
-
-.section-text{
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
+.laptob-icon img {
+  width: 80%;
 }
 
-.section-pc-title{
-     font-weight: 700;
-     font-size: 14px;
-     line-height:15px;
-     color: var(--section-device-describe-color) ;
-     margin-bottom: 16px;
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-.section-pc-describe{
-     font-weight: 400;
-     font-size: 11px;
-     line-height: 14px;
-     color: var(--section-main-movie-en-color);
+.section-pc-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  color: var(--section-device-describe-color);
+  margin-bottom: 16px;
 }
 
-.section-device-btn{
-     width: 160px;
-     transition: all .3s ease-out;
-    margin-left: 12px;
-    border-radius: 8px;
-    padding: 10px 16px;
-    text-align: center;
+.section-pc-describe {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--section-main-movie-en-color);
+}
+
+.section-device-btn {
+  width: 160px;
+  transition: all 0.3s ease-out;
+  margin-left: 12px;
+  border-radius: 8px;
+  padding: 10px 16px;
+  text-align: center;
 }
 
 /* Responsive part*/
 
-@media screen and (max-width :1100px){
-     .section-dev{
-          padding: 0 20px;
-     }
+@media screen and (max-width: 1100px) {
+  .section-dev {
+    padding: 0 20px;
+  }
 
-     .section-device-describe-title{
-          font-size: 14px;
-     }
+  .section-device-describe-title {
+    font-size: 14px;
+  }
 
-     .section-device-describe-text{
-          font-size: 12px;
-     }
+  .section-device-describe-text {
+    font-size: 12px;
+  }
 
-     .section-pc-title{
-          font-size: 12px;
-     }
+  .section-pc-title {
+    font-size: 12px;
+  }
 
-     .section-pc-describe{
-          font-size: 10px;
-     }
+  .section-pc-describe {
+    font-size: 10px;
+  }
+}
 
-     @media screen and (max-width : 768px) {
-          .section-dev{
-               display: flex;
-               flex-direction: column;
-          }
+@media screen and (max-width: 768px) {
+  .section-dev {
+    display: flex;
+    flex-direction: column;
+  }
 
-          
-          .section-device-photo {
-               display: none;
-          }
+  .section-device-photo {
+    display: none;
+  }
 
-          .responsive-photo-mode{
-               display: block;
-          }
-     }
+  .responsive-photo-mode {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-device-describe-title {
+    font-size: 12px;
+  }
+
+  .section-device-describe-text {
+    font-size: 10px;
+  }
+
+  .section-pc-title {
+    font-size: 10px;
+  }
+
+  .section-pc-describe {
+    font-size: 8px;
+  }
 }
 
 /* end of Responsive part*/
