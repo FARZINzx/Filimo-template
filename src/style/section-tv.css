@@ -35,6 +35,10 @@
      width: 100%;
 }
 
+.section-device-describe{
+     z-index: 10;
+}
+
 .tv-btn{
      padding: 10px 16px;
      border-radius: 10px ;
@@ -57,3 +61,11 @@
 .tv-btn:hover{
      background-color: var(--section-tv-btn-background-hover);
 }
+
+/* responsive Part*/
+
+@media screen and (max-width : px){
+
+}
+
+/*End of Ressponsive part*/
