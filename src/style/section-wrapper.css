@@ -1,19 +1,18 @@
 .section-wrapper{
      touch-action: pan-y;
      width: 100%;
-     height: calc(100vh - (242px)); ;
-     padding-top:50px ;
-     
+     height:600px ;
+     padding-top:50px; 
 }
 
 .back-img{
      background-image: url(../assets/Images/backgroundPoster.jpeg);
      background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+     background-size:contain;
      height: 100%;
      position: relative;
 }
+
 
 .color-gradient{
      z-index: 2;

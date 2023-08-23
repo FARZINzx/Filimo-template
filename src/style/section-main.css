@@ -360,3 +360,18 @@
   color: #fff;
   font-family: swiper-icon ;
 }
+
+
+/* Responsive part*/
+@media screen and (max-width : 1100px) {
+  .section-main-top{
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width : 1000px) {
+  .last-poster-item{
+    display: none;
+  }
+}
+/*end of Responsive part*?
