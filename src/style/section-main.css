@@ -1,7 +1,7 @@
 .section-main-top {
   position: relative;
   z-index: 2;
-  padding: 0px 100px;
+  padding: 0px 200px;
   margin: 0 auto;
 }
 
@@ -50,20 +50,21 @@
   position: relative;
   overflow: hidden;
   overflow-x: auto;
-  white-space: nowrap;
   padding: 15px 8px 25px 0;
+  z-index: -1;
 }
 
 .section-main-top-wrapper-list {
   display: flex;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
 }
 
 .section-main-top-wrapper-item {
+  min-width: 130px;
+  width: 165px;
   margin-left: 10px;
 }
 
@@ -228,8 +229,6 @@
   border-radius: 10px;
 }
 
-
-
 .movie-item-poster {
   position: relative;
 }
@@ -267,50 +266,50 @@
   margin-left: 15px;
 }
 
-.movie-section-name{
-     font-size: 11px;
-     line-height: 15px;
-     text-align: right;
-     color: #f6f6f6;
-     font-weight: 700;
-     max-width: 100%;
-     overflow: hidden;
-     white-space: nowrap;
-     margin-top: 4px;
+.movie-section-name {
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  color: #f6f6f6;
+  font-weight: 700;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 4px;
 }
 
-.back-log{
-    position: absolute;
-     background: rgba(0, 0, 0, 0.4);
-     backdrop-filter: blur(14px);
-     width: 100%;
-     height: 100%;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
+.back-log {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(14px);
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.back-g-LOCK{
-  background-color: rgba(16, 14, 16, .4);
+.back-g-LOCK {
+  background-color: rgba(16, 14, 16, 0.4);
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 50px;
   height: 50px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.back-log img{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     width: 30px;
-     height: 30px;
+.back-log img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
 }
 
-.swiper-icon{
+.swiper-icon {
   opacity: 30%;
   background: rgba(6, 6, 6, 0.6);
   border-radius: 50%;
@@ -321,13 +320,13 @@
   position: absolute;
 }
 
-.before-icon{
+.before-icon {
   top: 34% !important;
   right: 8%;
 }
 
-.before-icon::after{
-  content: 'next';
+.before-icon::after {
+  content: "next";
   font-size: 13px;
   text-transform: none !important;
   letter-spacing: 0;
@@ -337,18 +336,17 @@
   top: 33%;
   cursor: pointer;
   color: #fff;
-  font-family: swiper-icon ;
+  font-family: swiper-icon;
 }
 
-.next-icon{
+.next-icon {
   opacity: 100%;
- left: 9%;
- top: 34% !important;
-
+  left: 9%;
+  top: 34% !important;
 }
 
-.next-icon::after{
-  content: 'prev';
+.next-icon::after {
+  content: "prev";
   font-size: 13px;
   text-transform: none !important;
   letter-spacing: 0;
@@ -358,32 +356,50 @@
   top: 33%;
   cursor: pointer;
   color: #fff;
-  font-family: swiper-icon ;
+  font-family: swiper-icon;
 }
-
 
 /* Responsive part*/
-@media screen and (max-width : 1100px) {
-  .section-main-top{
+
+@media screen and (max-width : 1300px) {
+  .section-main-top {
+    padding: 0px 100px;
+    
+  }
+}
+@media screen and (max-width: 1100px) {
+  .section-main-top {
     padding: 0 20px;
   }
 }
 
-@media screen and (max-width : 1000px) {
-  .last-poster-item{
+@media screen and (max-width: 1000px) {
+  .last-poster-item {
     display: none;
   }
 
-  @media screen and (max-width : 768px) {
-    .section-main-top-wrapper-item {
-      margin-left: 20px;
-    }
-
-    .item-active {
-      margin-left: 10px;
-    }
+  .section-main-top-wrapper-item {
+    width: 200px;
   }
-
-  
 }
+
+
+@media screen and (max-width: 768px) {
+  .section-main-top-wrapper-item {
+    width:250px ;
+  }
+}
+
+@media screen and (max-width: 666px) {
+
+  .section-main-top-wrapper{
+    overflow: hidden;
+    overflow-x:auto ;
+  }
+  .section-main-top-wrapper-item{
+    z-index:1 ;
+  }
+}
+
+
 /*end of Responsive part*/
