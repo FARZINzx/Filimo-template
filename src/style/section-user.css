@@ -6,6 +6,7 @@
 .section-user-dev{
      padding: 0px 80px;
      margin: 0 auto;
+    
 }
 
 .section-user-text{
@@ -26,6 +27,7 @@
 .section-user-card-list{
      position: relative;
      overflow: hidden;
+     overflow-x: auto;
      padding: 0;
      z-index: 1;
      list-style: none;
@@ -37,7 +39,7 @@
 }
 
 .section-user-card-item{
-     width: 397.66px;
+     width: 28.7%;
      margin-left: 15px;
      background-color: var(--section-user-card-background);
      border: 1px solid #33353d;
@@ -95,6 +97,59 @@
 
 /*Responsive Part*/
 
+@media screen and (max-width : 1250px){
+     .section-user-card-item{
+          width: 28%;
+     }
+}
 
+@media screen and (max-width : 1110px) {
+     .section-user-dev{
+          padding: 0px 10px;
+          margin: 0 auto;
+     }
+
+     .section-user-card-item{
+          width: 27%;
+     }
+}
+
+@media screen and (max-width : 900px){
+     .section-user-card-item{
+          width: 25%;
+     }
+}
+
+@media screen and (max-width : 800px){
+     .section-user-card-item{
+          width: 40%;
+     }
+}
+
+@media screen and (max-width : 500px){
+     .section-user-card-item{
+          width: 70%;
+     }
+
+     .section-user-text div span {
+          font-weight: 600;
+          font-size: 14px;
+         
+     }
+
+     .feedback-swiper{
+          width: 30px;
+          height: 30px;
+     }
+
+
+     .feedback-swiper::after{
+          top: 30%;
+     }
+     
+     .avatar-name span{
+          font-size: 14px;
+     }
+}
 
 /*End of Ressponsive part*/
