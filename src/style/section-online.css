@@ -153,3 +153,31 @@
   font-weight: 400;
   color: #fff;
 }
+
+/* Responsive part*/
+
+@media screen and (max-width:1000px) {
+  .section-online-card{
+    min-width: 480px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .section-online-card {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+  }
+
+  .section-online-card-img{
+    width: 100%;
+  }
+    
+
+  .section-online-card-img img {
+    border-radius: 8px;
+    width: 100%;
+  }
+}
+
+/*Responsive part*/
