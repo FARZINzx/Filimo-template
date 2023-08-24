@@ -3,7 +3,7 @@
 }
 
 .free-movie {
-     padding: 0px 327px;
+     padding: 0px 10%;
      margin: 0 auto;
      max-width: 1440px;
 }
@@ -21,11 +21,13 @@
      margin: 0px -15px ;
      touch-action: pan-x;
      z-index: 1;
-     overflow-x: scroll;
+     overflow-x: auto;
      scroll-behavior: smooth;
      position: relative;
-     
+}
 
+.section-free-movie-wrapper::-webkit-scrollbar{
+     display: none;
 }
 
 .section-free-movie-list{
@@ -36,8 +38,7 @@
 .section-free-movie-item {
      margin-left: 30px;
      text-decoration: none;
-     min-width:130px;
-     width: auto;
+     min-width:14.5%;
 
 }
 
@@ -75,7 +76,7 @@
 }
 
 .free-movie-swiper{
-     position: absolute;
+     position:absolute;
 }
 
 .before-icon.free-movie-swiper{
@@ -91,7 +92,34 @@
 @media screen and (max-width:1100px) {
      .free-movie{
           padding: 0 20px;
+     }
 
+     .section-free-movie-item{
+          min-width: 17%;
+     }
+}
+
+@media screen and (max-width:768px) {
+     .section-free-movie-item{
+          min-width: 19%;
+     }
+}
+
+@media screen and (max-width:650px) {
+     .section-free-movie-item{
+          min-width: 21%;
+     }
+}
+
+@media screen and (max-width:550px) {
+     .section-free-movie-item{
+          min-width: 28%;
+     }
+}
+
+@media screen and (max-width:450px) {
+     .section-free-movie-item{
+          min-width: 47%;
      }
 }
 
