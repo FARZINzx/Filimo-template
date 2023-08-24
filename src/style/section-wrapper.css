@@ -3,14 +3,21 @@
      width: 100%;
      height:600px ;
      padding-top:50px; 
+     position: relative;
 }
 
 .back-img{
      background-image: url(../assets/Images/backgroundPoster.jpeg);
      background-repeat: no-repeat;
-     background-size:contain;
+     background-size:cover;
+     background-position: center;
      height: 100%;
-     position: relative;
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     padding-top: 30px;
+
 }
 
 
@@ -104,3 +111,8 @@
 .section-wrapper-gift svg {
      margin-left: 4px;
 }
+
+/* Responsive PART */
+
+
+/* End of responsive part*/
