@@ -218,10 +218,9 @@
 }
 
 .movie-wrapper-list-item {
-  width: 295px;
+  width: 100%;
+  min-width: 150px;
   margin-left: 20px;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .list-item-link img {
