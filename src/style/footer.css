@@ -9,6 +9,10 @@ footer {
   transition: all 0.3s ease-out;
 }
 
+.footer-link{
+  display: flex;
+}
+
 .footer-link ul {
   display: flex;
   align-items: center;
@@ -41,6 +45,10 @@ svg {
   stroke: var(--footer-text-color-item-hover);
 }
 
+.social-media{
+  display: flex;
+  align-items: center;
+}
 .social-media .dropDown-footer {
   position: relative;
 }
@@ -106,8 +114,50 @@ svg {
   transition: all 0.3s ease-in;
 }
 
+.arrow-top-footer{
+  display: none;
+}
+
+.footer-social-media-responsive{
+  display: none;
+}
+
 
 /* Responsive part*/
 
+@media screen and (max-width:920px) {
+  .footer-disapear-link{
+    display: none;
+  }
 
-/*Responsive part*/
+  .footer-appear-link{
+    display: block;
+  }
+
+  .arrow-top-footer{
+    display: block;
+  }
+  .footer-link-item a {
+    color: var(--footer-text-color-item);
+    font-size: 9px;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-out;
+  }
+
+  .footer-link-item{
+    padding: 4px 4px;
+  }
+
+  .social-media-footer-920{
+    display: none;
+  }
+
+  .footer-social-media-responsive{
+    display: block;
+  }
+
+}
+
+/* End of Responsive part*/
