@@ -1,118 +1,210 @@
-.section-wrapper{
-     touch-action: pan-y;
-     width: 100%;
-     height:600px ;
-     padding-top:50px; 
-     position: relative;
+.section-wrapper {
+  touch-action: pan-y;
+  width: 100%;
+  height: 600px;
+  padding-top: 50px;
+  position: relative;
 }
 
-.back-img{
-     background-image: url(../assets/Images/backgroundPoster.jpeg);
-     background-repeat: no-repeat;
-     background-size:cover;
-     background-position: center;
-     height: 100%;
-     position: absolute;
-     top: 0;
-     right: 0;
-     left: 0;
-     padding-top: 30px;
-
+.back-img {
+  background-image: url(../assets/Images/backgroundPoster.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 30px;
 }
 
-
-.color-gradient{
-     z-index: 2;
-     position: absolute;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
+.color-gradient {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-.color-gradient1{
-     background: linear-gradient(186.97deg,rgba(21,21,21,0) 5.45%,#151515 94.55%);
+.color-gradient1 {
+  background: linear-gradient(
+    186.97deg,
+    rgba(21, 21, 21, 0) 5.45%,
+    #151515 94.55%
+  );
 }
 
-.color-gradient2{
-     background: radial-gradient(130% 44% at 41% 40%,rgba(0,0,0,0) 0,#151515 100%);
+.color-gradient2 {
+  background: radial-gradient(
+    130% 44% at 41% 40%,
+    rgba(0, 0, 0, 0) 0,
+    #151515 100%
+  );
 }
 
-.section-wrapper-details{
-     z-index: 5;
-     padding: 0 100px;
-     display: flex;
-     justify-content: center;
-   
+.section-wrapper-details {
+  z-index: 5;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
 }
 
-.details{
-     position: absolute;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     bottom: 64px;
-     z-index: 5;
+.details {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 64px;
+  z-index: 5;
 }
 
 .section-detail-list {
-     display: flex;
-     justify-content: space-evenly;
-     align-items: center;
-     text-align: center;
-     margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
 }
 
-.section-detail-list-item{
-     margin-bottom: 16px;
-     text-align: center;
-     font-weight: 700;
-     font-size: 14px;
-     margin-left: 50px;
-     color: var(--footer-text-item-list-color);
-     display: flex;
-     align-items: center;
-     justify-content: center;
+.section-detail-list-item {
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 50px;
+  color: var(--footer-text-item-list-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.title{
- font-weight: 700;
- font-size: 35px;
- line-height: 40px;
- margin-bottom: 32px;
- color: var(--footer-text-color-item-hover);
+.title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 32px;
+  color: var(--footer-text-color-item-hover);
 }
 
-
-.small-title{
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 20px;
-     color: #f4843f 
+.small-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f4843f;
 }
 
-.section-wrapper-btn{
-     width: 285px;
-     padding : 17px 0px;
-     font-size: 15px;
-     font-weight: 500;
+.section-wrapper-btn {
+  width: 285px;
+  padding: 17px 0px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
-.section-wrapper-gift{
-     color: var(--footer-text-gift-color);
-     font-size: 10px;
-     font-weight: 400;
-     display: flex;
-     align-items: center;
+.section-wrapper-gift {
+  color: var(--footer-text-gift-color);
+  font-size: 10px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .section-wrapper-gift svg {
-     margin-left: 4px;
+  margin-left: 4px;
 }
 
 /* Responsive PART */
+
+@media screen and (max-width: 1110px) {
+  .section-wrapper-details {
+    padding: 0 20px;
+  }
+
+  .section-detail-list-item span{
+     font-weight: 500;
+     font-size: 12px;
+   }
+
+}
+
+@media screen and (max-width: 1000px) {
+     .section-detail-list-item span{
+        font-weight: 700;
+        font-size: 11px;
+      }
+
+      .section-detail-list-item {
+          margin-left: 20px;
+        }
+
+        .title{
+          font-size: 25px;
+        }
+
+        .small-title{
+          font-size: 12px;
+        }
+   }
+
+   @media screen and (max-width : 830px) {
+     .section-detail-list{
+          display: flex;
+          flex-direction: column;
+          align-items: center; 
+     }
+
+     .section-detail-respon-800{
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          padding-right: 3px;
+     }
+
+     .section-detail-list-item span{
+          font-weight: 700;
+          font-size: 14px;
+        }
+  
+          .title{
+            font-size: 30px;
+          }
+  
+          .small-title{
+            font-size: 14px;
+          }
+
+          .section-wrapper-btn {
+               width: 200px;
+             }
+
+             .section-wrapper-gift span {
+               font-size: 5px;
+               font-weight: 300;
+              
+             }
+   }
+
+   @media screen and (max-width : 500px) {
+     .section-detail-list-item span{
+          font-weight: 700;
+          font-size: 13px;
+        }
+  
+          .title{
+            font-size: 20px;
+          }
+  
+          .small-title{
+            font-size: 12px;
+          }
+
+          .section-wrapper-btn {
+               width: 150px;
+               font-size: 12px;
+             }
+   }
 
 
 /* End of responsive part*/
