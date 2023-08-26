@@ -8,6 +8,15 @@ const scrollTop = document.querySelector(".scroll-top")
 //      scrollTop.style.display = "none"
 //}
 
+setInterval(console.log(window.scrollY) , 100)
+
+const scrollBtnDisplay = function () {
+  window.scrollY > 20
+    ? scrollTop.style.display = "block"
+    : scrollTop.style.display = "none";
+};
+window.addEventListener("scroll", scrollBtnDisplay);
+
 const scrollWindow = function () {  
      if (window.scrollY != 0) {
        setTimeout(function () {
