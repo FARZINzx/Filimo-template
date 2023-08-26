@@ -1,17 +1,19 @@
 const burgurIcon = document.querySelector(".burger");
 const smallMenuHover = document.querySelector(".sml");
-let scrollTop = document.querySelector(".scroll-top")
+const scrollTop = document.querySelector(".scroll-top")
 
-burgurIcon.addEventListener('mouseEnter',()=>{
-     smallMenuHover
-})
+// if(window.scrollY>0){
+//      scrollTop.style.display = "block"
+// }else{
+//      scrollTop.style.display = "none"
+//}
 
 const scrollWindow = function () {  
      if (window.scrollY != 0) {
        setTimeout(function () {
          window.scrollTo(0, window.scrollY - 50);
          scrollWindow();
-       }, 10);
+       }, 30);
      }
    };
 
