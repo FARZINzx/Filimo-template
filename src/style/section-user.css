@@ -35,7 +35,10 @@
      margin-right: auto;
      display: flex;
      flex-direction: row;
+}
 
+.section-user-card-list::-webkit-scrollbar{
+     display: none;
 }
 
 .section-user-card-item{

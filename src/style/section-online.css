@@ -50,6 +50,10 @@
   overflow-y: auto;
 }
 
+.section-online-collection::-webkit-scrollbar{
+  display: none;
+}
+
 .section-online-box {
   display: flex;
   max-height: 570px;

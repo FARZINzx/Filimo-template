@@ -54,6 +54,10 @@
   z-index: -1;
 }
 
+.section-main-top-wrapper::-webkit-scrollbar{
+  display: none;
+}
+
 .section-main-top-wrapper-list {
   display: flex;
   list-style-type: none;
