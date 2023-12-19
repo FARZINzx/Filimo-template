@@ -76,6 +76,12 @@
   background-color: var(--section-child-btn-background);
   padding: 10px 16px;
 }
+.child-btn-1:hover{
+  background-color:#8a8484
+}
+.child-btn-2:hover{
+  background-color:#8a8484 ;
+}
 
 /* Responsive Start*/
 

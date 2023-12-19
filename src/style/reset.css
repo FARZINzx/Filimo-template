@@ -89,5 +89,9 @@ html {
 	--footer-text-gift-color : #959ba2;
 }
 
+button{
+	cursor: pointer;
+}
+
 
 

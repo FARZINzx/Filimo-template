@@ -130,6 +130,7 @@
   font-size: 10px;
   font-family: iranSans;
   font-weight: 400;
+  transition: all .4s;
 }
 
 .section-online-buy:hover {

@@ -108,10 +108,20 @@
   font-weight: 400;
   display: flex;
   align-items: center;
+  transition: all .4s;
+  cursor: pointer;
 }
 
 .section-wrapper-gift svg {
   margin-left: 4px;
+}
+
+.section-wrapper-gift:hover svg{
+  fill: white;
+}
+
+.section-wrapper-gift:hover{
+  color: white;
 }
 
 /* Responsive PART */

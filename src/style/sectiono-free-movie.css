@@ -39,8 +39,9 @@
      margin-left: 30px;
      text-decoration: none;
      min-width:14.5%;
-
+     cursor: pointer;
 }
+
 
 .free-movie-item-poster{
      transition: all .3s ease-in-out;

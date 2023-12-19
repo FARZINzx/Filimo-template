@@ -28,6 +28,7 @@
   padding: 1px 1px;
   width: 120px;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .switch-cat .switch-cat-item {
@@ -229,6 +230,7 @@
   display: inline-block;
   vertical-align: middle;
   flex-shrink: 0;
+  cursor: pointer;
 
 }
 

@@ -35,13 +35,19 @@
   padding-bottom: 64px;
 }
 
-.section-tab-btn {
+.btn.section-tab-btn {
   width: 285px;
   padding: 17px 0;
   margin: 0 auto;
   font-size: 15px;
   background-color: #17924e;
   border-radius: 8px;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.btn.section-tab-btn:hover{
+  background-color: #245d3e;
 }
 
 .section-tab-list {
