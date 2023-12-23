@@ -1,7 +1,8 @@
 const burgurIcon = document.querySelector(".burger");
 const smallMenuHover = document.querySelector(".sml");
 const scrollTop = document.querySelector(".scroll-top")
-const link = document.getElementsByTagName('a')
+const link = document.querySelectorAll('a')
+
 
 link.forEach(element => {
   element.addEventListener("click",(e)=>{
