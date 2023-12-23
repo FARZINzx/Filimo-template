@@ -1,14 +1,14 @@
 const burgurIcon = document.querySelector(".burger");
 const smallMenuHover = document.querySelector(".sml");
 const scrollTop = document.querySelector(".scroll-top")
+const link = document.getElementsByTagName('a')
 
-// if(window.scrollY>0){
-//      scrollTop.style.display = "block"
-// }else{
-//      scrollTop.style.display = "none"
-//}
+link.forEach(element => {
+  element.addEventListener("click",(e)=>{
+    e.preventDefault();
+  })
+});
 
-setInterval(console.log(window.scrollY) , 100)
 
 const scrollBtnDisplay = function () {
   window.scrollY > 20
